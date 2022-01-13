@@ -27,3 +27,23 @@ $ sudo ./bootstrap --qt-gui
 $ sudo make -j4
 $ sudo make install
 ```
+
+Then, you must restart your ssh session.
+
+Next, install the OpenPose following these commands:
+
+```bash
+$ sudo apt-get install -y libprotobuf-dev protobuf-compiler libgflags-dev libgoogle-glog-dev
+$ cd /usr/local/src
+$ sudo wget https://github.com/CMU-Perceptual-Computing-Lab/openpose/archive/v1.7.0.tar.gz
+$ sudo tar -xvzf v1.7.0.tar.gz
+$ cd openpose-1.7.0/3rdparty
+$ sudo git clone https://github.com/CMU-Perceptual-Computing-Lab/caffe.git
+$ sudo git clone https://github.com/pybind/pybind11.git
+```
+
+Open cmake-gui:
+```bash
+$ cmake-gui
+```
+
