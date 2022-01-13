@@ -44,6 +44,39 @@ $ sudo git clone https://github.com/pybind/pybind11.git
 
 Open cmake-gui:
 ```bash
-$ cmake-gui
+$ sudo cmake-gui
+```
+cmake-gui:
+Set the directorys and Configure following a image:
+![270865410_633347834579314_4176813386005096523_n](https://user-images.githubusercontent.com/92207106/149400197-a415637a-e65e-42bb-81be-b89a795e352f.png)
+
+Set and Finish following a image:
+![271485156_464680985260430_2617461527686066176_n](https://user-images.githubusercontent.com/92207106/149400472-e3fdd050-f4b3-4c4f-ab52-ec0a35d431b1.png)
+
+Wait the configure process done.
+Enable BUILD_PYTHON OPTION:
+![269712800_422121446327661_4547882833180041178_n](https://user-images.githubusercontent.com/92207106/149400617-08e63a38-f8b0-42bb-a2ce-7de9e3edaa03.png)
+
+Enable DOWNLOAD_BODY_COCO_MODEL & DOWNLOAD_BODY_MPI_MODEL:
+![270682121_328922122422171_2132494908907320135_n](https://user-images.githubusercontent.com/92207106/149400763-2dc654b0-1479-442e-a72c-6190c7909c6d.png)
+
+Disable USE_CUDNN option:
+![271465204_659265595255142_5952516023144944446_n](https://user-images.githubusercontent.com/92207106/149400815-926ba05e-2616-4606-b208-d60f1eb16db9.png)
+
+Generate:
+![271465204_659265595255142_5952516023144944446_n](https://user-images.githubusercontent.com/92207106/149401014-02b5a984-6611-4091-ab40-db745ffa06b0.png)
+
+Wait the generate process done and close the cmake-gui.
+
+Then, following these commands:
+```bash
+$ cd build
+$ sudo make -j4
+$ sudo make install
+$ cd python
+$ sudo make -j4
 ```
 
+You can test the completed install by:
+```bash
+$ cd /usr/local/src/openpose-1.7.0/build/examples
