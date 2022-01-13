@@ -93,5 +93,8 @@ $ sudo make -j4
 
 You can test the completed install by:
 ```bash
-$ cd /usr/local/src/openpose-1.7.0/build/examples
+$ python3
+>>> import openpose
 ```
+
+If you can import the openpose with no error, it will be use.
