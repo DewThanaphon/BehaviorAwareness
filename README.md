@@ -2,8 +2,11 @@
 My Master Degree Research.
 
 ## How to install the OpenPose in a Jetson Nano
+
 Firstly, getting start the Jetson Nano following this url: https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#intro
+
 Then, install the OpenPose following this url: https://spyjetson.blogspot.com/2019/10/jetsonnano-human-pose-estimation-using.html
+
 or following these commands:
 
 check the cmake version
@@ -11,8 +14,11 @@ check the cmake version
 $ cmake --version
 ```
 The cmake version should be 3.12.2 or higher
+
 If the cmake version is lower than 3.12.2, please check the lastest version at **[here](https://github.com/Kitware/CMake/releases)**
+
 At this time (2022/01/14), the lastest version is v3.22.1.
+
 Then, following these commands for preparing to install OpenPose:
 
 ```bash
@@ -47,6 +53,7 @@ Open cmake-gui:
 $ sudo cmake-gui
 ```
 cmake-gui:
+
 Set the directorys and Configure following a image:
 
 ![270865410_633347834579314_4176813386005096523_n](https://user-images.githubusercontent.com/92207106/149400197-a415637a-e65e-42bb-81be-b89a795e352f.png)
