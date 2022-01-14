@@ -91,6 +91,8 @@ $ sudo make -j4
 $ sudo make install
 $ cd python
 $ sudo make -j4
+$ sudo make install
+$ sudo cp -r openpose /usr/lib/python3/dist-packages
 ```
 
 You can test the completed install by:
@@ -100,3 +102,14 @@ $ python3
 ```
 
 If you can import the openpose with no error, it will be use.
+
+### Install python3 library
+
+```bash
+pip3 install Cython
+pip3 install pandas
+pip3 install scipy
+pip3 install -U scikit-learn
+pip3 install joblib
+pip3 install dill
+```
