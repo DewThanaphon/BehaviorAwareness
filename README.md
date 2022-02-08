@@ -1,6 +1,9 @@
 # BehaviorAwareness
+
 My Master Degree Research.
+
 Author: Thanaphon Rianthong
+
 Contact: dew.thanaphon523@gmail.com
 
 ## How to install the OpenPose in a Jetson Nano
