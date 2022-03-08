@@ -28,7 +28,13 @@ Then, following these commands for preparing to install OpenPose:
 
 ```bash
 $ sudo apt-get update
-$ sudo apt-get install -y libssl-dev libcurl4-openssl-dev qt5-default build-essential libboost-all-dev libboost-dev libhdf5-dev libatlas-base-dev python3-dev python3-pip
+$ sudo apt-get install -y libssl-dev libcurl4-openssl-dev qt5-default libboost-all-dev \
+libboost-dev libhdf5-dev libatlas-base-dev python3-dev python3-pip \
+build-essential git pkg-config libgtk2.0-dev libgtk-3-dev \
+libavcodec-dev libavformat-dev libswscale-dev libv4l-dev \
+libxvidcore-dev libx264-dev libjpeg-dev libpng-dev libtiff-dev \
+gfortran openexr libatlas-base-dev python3-numpy python3-opencv \
+libtbb2 libtbb-dev libdc1394-22-dev
 $ sudo apt-get remove -y cmake
 $ cd /usr/local/src
 $ sudo wget https://github.com/Kitware/CMake/releases/download/v3.22.1/cmake-3.22.1.tar.gz
@@ -111,11 +117,6 @@ $ python3
 ## Install necessary python3 library
 
 ```bash
-$ sudo apt install build-essential cmake git pkg-config libgtk-3-dev \
-libavcodec-dev libavformat-dev libswscale-dev libv4l-dev \
-libxvidcore-dev libx264-dev libjpeg-dev libpng-dev libtiff-dev \
-gfortran openexr libatlas-base-dev python3-dev python3-numpy \
-libtbb2 libtbb-dev libdc1394-22-dev
 $ pip3 install dill mach scikit-build
 $ pip3 install Cython
 $ pip3 install numpy
