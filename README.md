@@ -28,7 +28,7 @@ Then, following these commands for preparing to install OpenPose:
 
 ```bash
 $ sudo apt-get update
-$ sudo apt-get install -y libssl-dev libcurl4-openssl-dev qt5-default build-essential libboost-all-dev libboost-dev libhdf5-dev libatlas-base-dev python3-dev $ $ $ $ python3-pip
+$ sudo apt-get install -y libssl-dev libcurl4-openssl-dev qt5-default build-essential libboost-all-dev libboost-dev libhdf5-dev libatlas-base-dev python3-dev python3-pip
 $ sudo apt-get remove -y cmake
 $ cd /usr/local/src
 $ sudo wget https://github.com/Kitware/CMake/releases/download/v3.22.1/cmake-3.22.1.tar.gz
