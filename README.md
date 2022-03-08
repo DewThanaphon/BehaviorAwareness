@@ -112,7 +112,7 @@ $ python3
 
 ```bash
 $ sudo apt-get install gfortran
-$ pip3 install dill mach
+$ pip3 install dill mach scikit-build
 $ pip3 install Cython
 $ pip3 install numpy
 $ pip3 install pandas
