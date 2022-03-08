@@ -62,7 +62,7 @@ $ sudo git clone https://github.com/pybind/pybind11.git
 Open cmake-gui:
 ```bash
 $ cd ..
-$ mkdir build
+$ sudo mkdir build
 $ sudo cmake-gui
 ```
 cmake-gui:
@@ -108,23 +108,21 @@ $ sudo cp -r openpose /usr/lib/python3/dist-packages
 
 You can test the completed install by:
 ```bash
-$ python3
->>> import openpose
+$ python3 -c "import openpose"
 ```
 
-***If you can import the openpose with no error, it will be use.***
+***If you can import the openpose with no error, it will be OK.***
 
 ## Install necessary python3 library
 
 ```bash
-$ pip3 install dill mach scikit-build
+$ pip3 install dill mach scikit-build joblib
 $ pip3 install Cython
 $ pip3 install numpy
 $ pip3 install pandas
 $ pip3 install scipy
 $ pip3 install -U scikit-learn
-$ pip3 install joblib
-$ pip3 install opencv-python
+$ pip3 install opencv-python opencv_contrib_python
 ```
 
 ## Run a program
