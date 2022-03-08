@@ -55,6 +55,8 @@ $ sudo git clone https://github.com/pybind/pybind11.git
 
 Open cmake-gui:
 ```bash
+$ cd ..
+$ mkdir build
 $ sudo cmake-gui
 ```
 cmake-gui:
@@ -110,11 +112,13 @@ $ python3
 
 ```bash
 $ pip3 install Cython
+$ pip3 install numpy
 $ pip3 install pandas
 $ pip3 install scipy
 $ pip3 install -U scikit-learn
 $ pip3 install joblib
 $ pip3 install dill
+$ pip3 install opencv-python
 ```
 
 ## Run a program
