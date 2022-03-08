@@ -122,7 +122,7 @@ $ pip3 install numpy
 $ pip3 install pandas
 $ pip3 install scipy
 $ pip3 install -U scikit-learn
-$ pip3 install opencv-python opencv_contrib_python
+$ pip3 install opencv-python
 ```
 
 ## Run a program
