@@ -232,8 +232,8 @@ def main():
 
     datum = op.Datum()
 
-    rf = joblib.load("models/modelDL.joblib")
-    postures = ['Happy', 'Sleep', 'Work', 'Think']
+    rf = joblib.load("model.joblib")
+    postures = ['RaiseHands', 'LieDown', 'Working', 'Thinking', 'Relaxing']
 
     try:
         cap = cv2.VideoCapture(0)
@@ -255,9 +255,11 @@ def main():
         if len(feat)>1:
             posture = PostureClassification(postures, feat, rf)
             img_out = cv2.putText(img_out, "Posture: {}".format(posture), (10, hih-10), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 2, cv2.LINE_AA)
-            print("posture is", posture, ": fps is %.2f"%(1/(time.time()-tic)))
+            fps = 1/(time.time()-tic)
+            print("posture is", posture, ": fps is %.2f"%(fps))
         else:
-            print("fps is %.2f"%(1/(time.time()-tic)))
+            fps = 1/(time.time()-tic)
+            print("fps is %.2f"%(fps))
 
         img_out = cv2.putText(img_out, "FPS: %.2f"%(1/(time.time()-tic)), (wid-170, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 2, cv2.LINE_AA)
         cv2.imshow('test', img_out)
