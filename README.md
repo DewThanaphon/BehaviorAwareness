@@ -111,13 +111,14 @@ $ python3
 ## Install necessary python3 library
 
 ```bash
+$ sudo apt-get install gfortran
+$ pip3 install dill mach
 $ pip3 install Cython
 $ pip3 install numpy
 $ pip3 install pandas
 $ pip3 install scipy
 $ pip3 install -U scikit-learn
 $ pip3 install joblib
-$ pip3 install dill
 $ pip3 install opencv-python
 ```
 
