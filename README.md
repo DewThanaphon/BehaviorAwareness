@@ -131,8 +131,11 @@ $ pip3 install opencv-python
 
 ```bash
 $ cd <"where you want">
-$ git clone https://DewThanaphonTest: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@github.com/DewThanaphon/BehaviorAwareness.git
-#password: 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
+$ gsettings set org.gnome.nautilus.preferences executable-text-activation 'launch'
+$ git clone https://your_usename:your_github_token@github.com/DewThanaphon/BehaviorAwareness.git & cd BehaviorAwareness
+
+#for example:
+#git clone https://DewThanaphonTest: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@github.com/DewThanaphon/BehaviorAwareness.git & cd BehaviorAwareness
 ```
 
 To use the code **without saving** the results.
