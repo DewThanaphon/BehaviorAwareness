@@ -125,9 +125,23 @@ $ pip3 install -U scikit-learn
 $ pip3 install opencv-python
 ```
 
-## Run a program
+**It will take a long time.**
+
+## How to use the code
 
 ```bash
-$ cd "your directory of the program"
-$ python3 "your python flie name"
+$ cd <"where you want">
+$ git clone https://github.com/DewThanaphon/BehaviorAwareness.git & cd BehaviorAwareness
+```
+
+To use the code **without saving** the results.
+
+```bash
+$ python3 BehaviorDemoJetsonNano.py
+```
+
+To use the code **with saving** the results.
+
+```bash
+$ python3 BehaviorJetsonNanoSaveResults.py
 ```
