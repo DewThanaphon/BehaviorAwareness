@@ -131,7 +131,8 @@ $ pip3 install opencv-python
 
 ```bash
 $ cd <"where you want">
-$ git clone https://github.com/DewThanaphon/BehaviorAwareness.git & cd BehaviorAwareness
+$ git clone https://DewThanaphonTest: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@github.com/DewThanaphon/BehaviorAwareness.git
+#password: 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
 ```
 
 To use the code **without saving** the results.
