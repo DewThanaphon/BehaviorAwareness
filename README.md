@@ -130,7 +130,9 @@ $ pip3 install opencv-python
 ## How to use the code
 
 ```bash
-$ cd <"where you want">
+$ cd <"wherever you want">
+#my suggestion: cd ~/Desktop
+
 $ gsettings set org.gnome.nautilus.preferences executable-text-activation 'launch'
 $ git clone https://your_usename:your_github_token@github.com/DewThanaphon/BehaviorAwareness.git & cd BehaviorAwareness
 
