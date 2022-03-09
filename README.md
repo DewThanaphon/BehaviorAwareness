@@ -136,6 +136,8 @@ $ git clone https://your_usename:your_github_token@github.com/DewThanaphon/Behav
 
 #for example:
 #git clone https://DewThanaphonTest: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@github.com/DewThanaphon/BehaviorAwareness.git & cd BehaviorAwareness
+
+$ sudo chmod u+x BehaviorJetsonNanoSaveResults.py
 ```
 
 To use the code **without saving** the results.
@@ -145,6 +147,8 @@ $ python3 BehaviorDemoJetsonNano.py
 ```
 
 To use the code **with saving** the results.
+
+You can **double click** the BehaviorJetsonNanoSaveResults.py or
 
 ```bash
 $ python3 BehaviorJetsonNanoSaveResults.py
