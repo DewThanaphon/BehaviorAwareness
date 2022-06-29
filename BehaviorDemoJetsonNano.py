@@ -233,6 +233,8 @@ def main():
     datum = op.Datum()
 
     rf = joblib.load("model.joblib")
+    postures = ['working', 'thinking', 'lyingDown', 'relaxing', 'raiseHands']
+    
     postures = ['RaiseHands', 'LieDown', 'Working', 'Thinking', 'Relaxing']
 
     try:
